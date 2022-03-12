@@ -1,0 +1,132 @@
+body {
+  background: url(https://wallpaper.dog/large/962743.jpg);
+  margin: 0;
+}
+
+.header-menu > .init {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.conteudo-principal > .grid2 {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-titulo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.4em;
+  color: aliceblue;
+}
+
+.menu-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-header > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.menu-options {
+  padding: 0 80px;
+  font-size: 1.2em;
+}
+
+.menu-options > a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 0 50px;
+}
+
+a:hover{
+  transition: 0.4s ease-in-out;
+  color: #000;
+  border-radius: 18px;
+  background: rgb(215, 136, 255);
+}
+
+.informativo {
+  font-size: 2.7em;
+  color: rgb(243, 108, 243);
+  margin: 0;
+  padding-top: 70px;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.informativo2 {
+  font-size: 3.4em;
+  color: rgb(215, 136, 255);
+  margin: 0;
+  padding: 10px 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.detalhamento {
+  font-size: 1.4em;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(221, 194, 247);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.form-name{
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 1.2em;
+  margin: 10px 0;
+  background-color: #fff;
+  height: 40px;
+  border-radius: 80px;
+  color: #000;
+}
+
+.form-password{
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 1.2em;
+  margin: 10px 0;
+  background-color: #fff;
+  height: 40px;
+  border-radius: 80px;
+  color: #000;
+}
+
+.form-entrar{
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+  margin: 10px 0;
+  background-color: rgb(217, 9, 236);
+  height: 40px;
+  border-radius: 80px;
+  color: #000;
+  align-items: center;
+}
